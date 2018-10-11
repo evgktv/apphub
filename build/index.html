@@ -1,0 +1,550 @@
+<!doctype HTML>
+<html lang="eng">
+<head>
+  <meta charset="utf-8">
+  <title>AppHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="img/favicon.png" type="image/png" rel="shortcut icon">
+  <link rel="stylesheet" href="css/style.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic-ext"
+        rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:400,400i,700,800" rel="stylesheet">
+</head>
+<body>
+
+<a id="home"></a>
+
+<header class="header">
+  <h1 class="visually-hidden">AppHub</h1>
+
+  <nav id="menuID" class="main-nav main-nav--closed main-nav--nojs">
+    <div class="main__wrapper main-nav__wrapper">
+
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+
+      <ul class="main-nav__list">
+        <li class="main-nav__item main-nav__item--logo">
+          <!--<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">-->
+          <!--<defs><linearGradient x1="0" y1="0" x2="0" y2="1" id="a"><stop offset="0" stop-color="#fff"/></linearGradient>-->
+          <!--</defs><rect width="100%" height="100%" fill="url(#a)"/><g><g transform="matrix(2.2257 0 0 2.2257 -52.572 -26.622)">-->
+          <!--<defs><filter x="-50%" y="-50%" width="200%" height="200%" id="b"><feMerge><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>-->
+          <!--<g filter="url(#b)" transform="matrix(.96 0 0 .96 42 25.44)"><defs>-->
+          <!--<linearGradient x1="0" y1="0" x2="0" y2="1" id="c" gradientTransform="rotate(-180 .5 .5)">-->
+          <!--<stop offset="0" stop-color="#420073"/><stop offset="1" stop-color="#AE8BFF"/></linearGradient></defs>-->
+          <!--<path fill="url(#c)" d="M93.1 17.95q-3.25-3.3-7.5-5.1Q81.2 11 76.4 11q-5.1 0-9.75 2.1-3.95-5.85-10.2-9.2Q50.05.45 42.75.45q-4.55 0-8.5 1.1-4.25 1.2-7.35 3.6Q21.9 9 22.5 16q.65 7.3 7.4 15.65 7.45 9.2 20.8 17.55 15 9.4 35.75 16.55-5.45-3.55-7.5-4.95-3.35-2.3-2.55-2.3 4.8 0 9.2-1.85 4.25-1.85 7.5-5.15 3.25-3.3 5.05-7.55 1.85-4.4 1.85-9.2 0-4.8-1.85-9.2-1.8-4.3-5.05-7.6z"/><defs>-->
+          <!--<linearGradient x1="0" y1="0" x2="0" y2="1" id="d" gradientTransform="rotate(-180 .5 .5)"><stop offset="0" stop-color="#FF6E00"/>-->
+          <!--<stop offset="1" stop-color="#FFB115"/></linearGradient></defs>-->
+          <!--<path fill="url(#d)" d="M4.1 30.8Q0 35.5 0 41.7q0 6.8 4.85 11.65 4.85 4.8 11.65 4.8 29.2.2 46.1.3-23.8-4.7-38.5-19.35-4.6-4.6-7.75-9.65-.95-1.55-1.7-3l-.5-1.1Q8.1 26.2 4.1 30.8z"/>-->
+          <!--<g><defs><linearGradient x1="0" y1="0" x2="0" y2="1" id="e" gradientTransform="rotate(-180 .5 .5)"><stop offset="0"/>-->
+          <!--<stop offset="1" stop-color="#420073"/></linearGradient></defs><path fill="url(#e)" d="M12.35 4.3q-1.85 3.7.1 9.25 2.25 6.5 9.45 14.25-4.05-5.35-5.65-10.6-1.4-4.7-.65-8.5.75-3.55 3.1-5.25 2.3-1.7 5.4-.85Q21.2 0 17.65.5q-3.65.55-5.3 3.8z"/></g>-->
+          <!--<g><defs><linearGradient x1="0" y1="0" x2="0" y2="1" id="f" gradientTransform="rotate(-180 .5 .5)"><stop offset="0" stop-color="#FFF"/>-->
+          <!--<stop offset="1" stop-color="#FFF"/></linearGradient></defs><path fill="url(#f)" d="M96.05 29.8q-2.15-5.65-6.7-9.4-4.15-3.5-9.25-4.6-5.05-1.1-9.25.5-4.45 1.7-6.5 5.9 8.25-4.75 17.15-2.45 8.6 2.15 14.55 10.05z"/></g></g></g>-->
+
+          <!--<g transform="matrix(3.6083 0 0 3.6083 -4.313 207.796)"><defs><linearGradient x1="0" y1="0" x2="0" y2="1" id="h">-->
+          <!--<stop offset="0"/></linearGradient></defs><defs><filter x="-50%" y="-50%" width="200%" height="200%" id="g"><feFlood flood-color="#000"/>-->
+          <!--<feComposite operator="xor" in2="SourceGraphic"/><feGaussianBlur stdDeviation="1"/><feOffset dy="1"/><feComponentTransfer>-->
+          <!--<feFuncA type="linear" slope=".7"/></feComponentTransfer><feComposite operator="in" in2="SourceGraphic"/>-->
+          <!--<feComposite in2="SourceGraphic" result="inner"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="inner"/></feMerge></filter></defs>-->
+          <!--<path filter="url(#g)" fill="url(#h)" d="M19.722-5.444c-.11.277-.278.666-.444 1.11-.222.667-.222.723-.5 1.5-.278.778-.278.778-.611 1.612-.334.833-.278.889-.611 1.666h2.61L20-1.222s-.056-1.111-.111-1.611c-.056-.5-.056-1.056-.111-1.5-.056-.445-.056-.834-.056-1.111m-1.166-2.39h3.11l1.556 12.112h-2.666l-.223-2.111h-3.389l-.888 2.11H13.5l5.056-12.11m9.555 5.61L27.444 2.5c.278.167.667.222 1.056.222.611 0 1.111-.278 1.5-.722.389-.444.611-1.222.778-2.333.166-1.111.11-1.834-.056-2.278-.166-.445-.555-.667-1.055-.667-.5 0-1.056.39-1.556 1.056m-2.055-2.945h2.277l-.055 1.223h.055c.223-.223.5-.5.834-.723.666-.444 1.222-.722 1.722-.722s.944.111 1.278.333c.333.223.61.445.833.834.444.889.611 2.11.389 3.666-.222 1.667-.778 2.945-1.611 3.834C31.056 4.11 30.11 4.5 29 4.5a4.606 4.606 0 0 1-1.778-.333l-.666 4.277H24.11l1.945-13.61m12.11 2.944L37.5 2.5c.278.167.667.222 1.056.222.61 0 1.11-.278 1.5-.722.388-.444.61-1.222.777-2.333.167-1.111.111-1.834-.055-2.278-.167-.445-.556-.667-1.056-.667s-1.055.39-1.555 1.056M36.11-5.167h2.278l-.056 1.223h.056c.222-.223.5-.5.833-.723.667-.444 1.222-.722 1.722-.722s.945.111 1.278.333c.334.223.611.445.834.834.444.889.61 2.11.388 3.666-.222 1.667-.777 2.945-1.61 3.834-.723.833-1.667 1.222-2.778 1.222a4.606 4.606 0 0 1-1.778-.333l-.667 4.277h-2.444l1.944-13.61m16.5 9.444h-2.555l.722-5H47.5l-.722 5h-2.556l1.722-12.111H48.5l-.722 5.11h3.278l.722-5.11h2.555l-1.722 12.11m9.611 0h-2.166L60.11 3l-.611.444c-.278.39-.833.723-1.556.945-.277.111-.555.111-.833.111-.889 0-1.5-.222-1.778-.778-.277-.555-.389-1.389-.222-2.5L56-5.167h2.5L57.778 0c-.167.944-.167 1.5-.111 1.722.055.222.11.445.222.5.111.056.278.111.5.111.222 0 .389-.055.555-.11.167-.056.334-.167.5-.279.334-.277.556-.5.723-.666l.889-6.445h2.5l-1.334 9.445m5.556-6.945c-.111.111-.167.223-.222.278l-.612 4.167c.167.166.334.278.5.389a.939.939 0 0 0 .556.166c.611 0 1.111-.166 1.444-.61.334-.445.556-1.167.723-2.112.166-1.111.11-1.778-.056-2.222-.167-.445-.5-.667-.944-.667-.445 0-.89.222-1.39.611m-1.833-6.277l2.556-.334-.722 5.167.5-.389c.166-.167.389-.278.61-.389.5-.333 1-.5 1.445-.5.445 0 .89.111 1.223.278.333.167.61.5.833.889.5.889.611 2.11.389 3.666-.222 1.612-.778 2.89-1.556 3.723-.722.833-1.555 1.222-2.5 1.222-.778 0-1.389-.222-1.833-.778-.167-.222-.222-.278-.333-.444l-.334 1.11h-2.11l1.832-13.221"/></g>-->
+
+          <!--<g transform="matrix(1.36172 0 0 1.36172 25.993 258.123)"><defs><linearGradient x1="0" y1="0" x2="0" y2="1" id="j">-->
+          <!--<stop offset="0"/></linearGradient></defs><defs><filter x="-50%" y="-50%" width="200%" height="200%" id="i"><feFlood flood-color="#000"/>-->
+          <!--<feComposite operator="xor" in2="SourceGraphic"/><feGaussianBlur stdDeviation="1"/><feOffset dy="1"/><feComponentTransfer>-->
+          <!--<feFuncA type="linear" slope=".7"/></feComponentTransfer><feComposite operator="in" in2="SourceGraphic"/>-->
+          <!--<feComposite in2="SourceGraphic" result="inner"/><feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="inner"/></feMerge></filter></defs>-->
+          <!--<path filter="url(#i)" fill="url(#j)" d="M16.611-1.722c-.222 1.5-.167 2.5.111 3.166.334.723 1 1.056 2 1.056.445 0 .834-.056 1.222-.167.39-.11.667-.222.89-.277V3s0 .667.055 1c-.445.167-.945.278-1.5.389-.556.111-1 .167-1.389.167-1.667 0-2.833-.5-3.5-1.556-.667-1.056-.833-2.611-.556-4.778.278-2.166.945-3.722 1.89-4.722.944-1 2.277-1.556 3.944-1.556.555 0 1.055.056 1.5.167.444.111.722.222.889.278.166.055.277.111.333.111l-.611 1.944c-.222-.055-.5-.166-.833-.277A3.582 3.582 0 0 0 19.944-6c-1.055 0-1.833.333-2.333 1.056-.5.722-.833 1.777-1 3.222M28.5 1.944c.333-.5.556-1.277.722-2.388.167-1.112.111-1.89-.055-2.39-.167-.5-.556-.722-1.056-.722s-.944.223-1.222.723-.5 1.277-.667 2.389c-.166 1.11-.166 1.888 0 2.388.167.5.556.778 1.056.778s.889-.278 1.222-.778m3.278-4.666c.11.61.11 1.389 0 2.278-.111.888-.334 1.666-.611 2.277A5.464 5.464 0 0 1 30.11 3.39C29.333 4.167 28.333 4.5 27 4.5c-1.944 0-3.111-.889-3.389-2.667-.111-.61-.111-1.389.056-2.277.222-1.667.722-2.945 1.61-3.778.779-.778 1.834-1.167 3.056-1.167 2 0 3.167.889 3.445 2.667m2.055-2.445h2.223l-.112 1.223H36c.111-.056.222-.167.389-.334.167-.166.333-.333.611-.5.667-.389 1.278-.61 1.944-.61.89 0 1.5.277 1.778.832.278.556.334 1.334.167 2.445L40 4.278h-2.444l.777-5.778c.111-.667.111-1.111 0-1.333-.11-.223-.333-.39-.722-.39-.333 0-.611.056-.889.279-.5.388-.778.666-.833.777L35 4.278h-2.5l1.333-9.445m13.611 0l-.166 1.834h-2.056l-.666 4.5c-.056.389-.056.722 0 .944.055.222.277.278.555.278s.556-.056.778-.111c.222-.056.333-.167.389-.167V3.89c-.056 0-.167.055-.334.111-.166.056-.277.167-.444.222-.444.222-.944.278-1.5.278-.833 0-1.444-.222-1.722-.667C42 3.39 41.833 2.667 42 1.556l.722-4.89h-1l.222-1.833H43l.278-2.277 2.555-.39-.389 2.667h2m4.834-3.944c.222.278.278.611.222 1.055-.056.445-.278.778-.556 1.056a1.518 1.518 0 0 1-1.055.444c-.389 0-.722-.166-.945-.444-.222-.278-.333-.611-.277-1.056.11-.444.333-.777.61-1.055a1.518 1.518 0 0 1 1.056-.445c.39 0 .723.167.945.445M50.61 4.278h-2.5L49.39-5l2.555-.333-1.333 9.61m3.945-9.444h2.222l-.111 1.223h.055c.111-.056.222-.167.39-.334.166-.166.332-.333.61-.5.667-.389 1.278-.61 1.945-.61.889 0 1.5.277 1.777.832.278.556.334 1.334.167 2.445l-.889 6.389h-2.444l.778-5.778c.11-.667.11-1.111 0-1.333-.112-.223-.334-.39-.723-.39-.333 0-.61.056-.889.279-.5.388-.777.666-.833.777l-.889 6.445h-2.5l1.334-9.445m15.222 9.445H67.61L67.667 3l-.611.444c-.278.39-.834.723-1.556.945-.278.111-.556.111-.833.111-.89 0-1.5-.222-1.778-.778-.278-.555-.389-1.389-.222-2.5l.889-6.389h2.5L65.333 0c-.166.944-.166 1.5-.11 1.722.055.222.11.445.221.5.112.056.278.111.5.111.223 0 .39-.055.556-.11.167-.056.333-.167.5-.279.333-.277.556-.5.722-.666l.89-6.445h2.5l-1.334 9.445m6.944-2.334c.334-.5.556-1.277.722-2.388.167-1.112.112-1.89-.055-2.39-.167-.5-.556-.722-1.056-.722s-.944.223-1.222.723-.5 1.277-.667 2.389c-.166 1.11-.166 1.888 0 2.388.167.5.556.778 1.056.778s.889-.278 1.222-.778M80-2.722c.111.61.111 1.389 0 2.278-.111.888-.333 1.666-.611 2.277a5.464 5.464 0 0 1-1.056 1.556c-.777.778-1.777 1.111-3.11 1.111-1.945 0-3.112-.889-3.39-2.667-.11-.61-.11-1.389.056-2.277.222-1.667.722-2.945 1.611-3.778.778-.778 1.833-1.167 3.056-1.167 2 0 3.166.889 3.444 2.667m8.056 7h-2.167L85.944 3l-.61.444c-.278.39-.834.723-1.556.945-.278.111-.556.111-.834.111-.888 0-1.5-.222-1.777-.778-.278-.555-.39-1.389-.223-2.5l.89-6.389h2.5L83.61 0c-.167.944-.167 1.5-.111 1.722.056.222.111.445.222.5.111.056.278.111.5.111.222 0 .39-.055.556-.11.166-.056.333-.167.5-.279.333-.277.555-.5.722-.666l.889-6.445h2.5l-1.333 9.445M90.61 2.11c.056 0 .111.111.278.167.167.055.333.11.555.166.5.167.89.278 1.223.278.333 0 .61-.055.833-.166.222-.112.278-.334.333-.612.056-.277.056-.555-.11-.777-.167-.223-.334-.39-.556-.611-.223-.223-.445-.39-.723-.612-.277-.222-.5-.388-.722-.666-.5-.611-.722-1.278-.61-2.056.11-.778.5-1.444 1.11-1.889.611-.444 1.39-.722 2.445-.722.777 0 1.61.167 2.333.389l-.389 1.833c-.167 0-.389-.11-.722-.222a3.582 3.582 0 0 0-1.111-.167c-.722 0-1.167.278-1.278.778-.056.222.056.445.222.611.167.167.334.39.556.556l.778.611s.555.444.777.667c.556.555.723 1.222.611 2-.055.777-.388 1.444-1 2-.666.555-1.5.833-2.61.833-.723 0-1.278-.056-1.667-.222-.667-.222-1.056-.39-1.223-.5l.667-1.667m17.333.278c.834 0 1.556-.389 2-1.056.445-.666.778-1.666 1-3.055.223-1.445.112-2.556-.166-3.222-.278-.667-.834-.945-1.667-.945h-.444-.445l-1.166 8.278h.888m-2-10.222l3.167-.056c.833 0 1.667.056 2.278.222.611.167 1.111.5 1.5.945.722.944.944 2.61.667 5-.445 3.333-1.723 5.278-3.834 5.833a9.357 9.357 0 0 1-2.222.278c-.778 0-1.444 0-2-.056-.556-.055-1-.055-1.278-.055l1.722-12.111m14 4.722c-.166-.333-.388-.5-.722-.5-.333 0-.666.167-1 .5-.333.333-.555 1-.666 1.889h2.5c.11-.89.055-1.556-.112-1.89m-1.055 5.723c.778 0 1.555-.222 2.333-.667l.278 1.667c-.444.333-1.167.556-2.167.778-.389.111-.777.111-1.277.111-.5 0-.945-.056-1.39-.222a2.367 2.367 0 0 1-1.11-.834c-.667-.833-.834-2.055-.612-3.61.223-1.667.723-3 1.612-3.945.833-.833 1.777-1.278 2.888-1.278 1.667 0 2.667.778 2.945 2.389.167.833.111 1.778-.167 2.889-.055.222-.055.333-.11.389h-4.779c-.11.833-.055 1.389.278 1.778.333.388.722.555 1.278.555m6.889 1.667h-2.5l1.833-13.222 2.556-.334-1.89 13.556m6.834-13.39c.222.279.278.612.222 1.056-.055.445-.277.778-.555 1.056a1.518 1.518 0 0 1-1.056.444c-.389 0-.722-.166-.944-.444-.222-.278-.334-.611-.278-1.056.111-.444.333-.777.611-1.055a1.518 1.518 0 0 1 1.056-.445c.389 0 .722.167.944.445m-1.667 13.389h-2.5L129.722-5l2.556-.333-1.334 9.61m4.056 0l-1.444-9.444h2.5l.388 3.945.112 3.944 1.222-3.944 1.444-3.945h2.556l-4.056 9.445H135m12.5-7.39c-.167-.332-.389-.5-.722-.5-.334 0-.667.168-1 .5-.334.334-.556 1-.667 1.89h2.5c.111-.89.056-1.556-.111-1.89m-1.056 5.723c.778 0 1.556-.222 2.334-.667l.278 1.667c-.445.333-1.167.556-2.167.778-.389.111-.778.111-1.278.111s-.944-.056-1.389-.222a2.367 2.367 0 0 1-1.11-.834c-.668-.833-.834-2.055-.612-3.61.222-1.667.722-3 1.611-3.945.833-.833 1.778-1.278 2.889-1.278 1.667 0 2.667.778 2.944 2.389.167.833.112 1.778-.166 2.889-.056.222-.056.333-.111.389h-4.778c-.111.833-.056 1.389.278 1.778.333.388.722.555 1.277.555m6.89 1.667h-2.5l1.333-9.445h2.222l-.111 1.278h.055c.278-.444.611-.833 1-1.111.39-.278.778-.389 1.056-.389s.5 0 .611.056c.111.055.167.055.278.11l-.5 2.167c-.111 0-.278-.055-.445-.11-.166-.056-.333-.056-.555-.056-.222 0-.445 0-.667.166-.222.167-.555.39-.889.723l-.889 6.61m5.278 2.167a7.085 7.085 0 0 0 2.333.39c.556 0 .89-.056 1.056-.223.333-.278.556-.778.667-1.5L163 3.056h-.056C162 4 161.056 4.5 160.167 4.5c-.89 0-1.5-.278-1.778-.833-.278-.556-.389-1.39-.222-2.5l.889-6.334h2.5l-.778 5.723c-.056.722-.111 1.222-.056 1.388.111.278.39.39.778.39.444 0 .889-.278 1.444-.778.112-.112.223-.167.278-.223l.945-6.5h2.444l-1.444 10.223c-.167 1.222-.556 2.166-1.223 2.777-.666.611-1.61.89-2.833.89-.889 0-1.833-.167-2.944-.556l.444-1.723"/></g></g>-->
+          <!--</svg>-->
+        </li>
+        <li class="main-nav__item">
+          <a class="text" href="#home">Home</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="text" href="#about">About</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="text" href="#platform">Platform</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="text" href="#modules">Modules</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="text" href="#services">Services</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="text" href="#team">Team</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="text" href="#partners">Partners</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="text" href="#contatcs">Contatcs</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="header__overlay"></div>
+
+  <div class="main__wrapper">
+
+    <div class="header__intro">
+      <p class="header__intro-txt header__intro-txt--prof">AppHub</p>
+      <p class="header__intro-txt">text text short about. text. Text sdsdfsdf sdfsdfsd
+        sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc</p>
+    </div>
+
+    <a href="#main" class="header__scroll">
+      <span class="header__scroll-down"></span>
+    </a>
+
+    <svg class="header__angle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 15">
+      <path fill="#fff" d="M0 30 V12 Q30 17 55 12 T100 11 V30z"></path>
+    </svg>
+  </div>
+
+</header>
+
+<main>
+  <!--<a id="about"></a>-->
+
+  <section class="about" id="about">
+    <div class="main__wrapper about__wrapper">
+      <h2 class="section-title">About company</h2>
+      <div class="text">
+        <div class="about__block">
+          <p class="about__info">text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdsdsdf sdvdsvsdvdscdsa sdvcdsc. text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc. text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc
+          </p>
+
+          <svg class="about__info-image" width="100" height="100">
+            <use xlink:href="img/symbols.svg#grunt"></use>
+          </svg>
+
+        </div>
+
+        <div class="about__block">
+          <p class="about__info">text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdsdsdf sdvdsvsdvdscdsa sdvcdsc. text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc. text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc
+          </p>
+
+          <svg class="about__info-image" width="100" height="100">
+            <use xlink:href="img/symbols.svg#mobile-first"></use>
+          </svg>
+        </div>
+
+        <div class="about__block">
+          <p class="about__info">text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdsdsdf sdvdsvsdvdscdsa sdvcdsc. text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc. text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc. text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdf sdvdsvsdvdscdsa sdvcdsc
+          </p>
+
+          <svg class="about__info-image" width="100" height="100">
+            <use xlink:href="img/symbols.svg#progressive"></use>
+          </svg>
+        </div>
+
+        <div class="about__block">
+          <p class="about__info">text text short about. text. Text sdsdfsdf sdfsdfsd
+            sdfgsd dsf sdf sdf  sdsdsdf sdvdsvsdvdscdsa sdvcdsc. text text short about. text.
+          </p>
+
+          <svg class="about__info-image" width="100" height="100">
+            <use xlink:href="img/symbols.svg#pixelperfect"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="platform" id="platform">
+    <h2 class="section-title">Platform</h2>
+
+    <div class="platform__list">
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Infrastructure for implementation of software predictive analytics & monitoring solutions
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Enterprise level solution for applications configuration, monitoring, debugging & profiling
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            One product for Zoo - common application layout for all company software
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Any IT infrastructure: cloud based & standalone
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Any programming language: Java, .NET, C, C++, Python, Ruby, PHP, Go, JavaScript, Android, Swift
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Any platform: Server, Desktop, Mobile, IoT
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Any storage: File System, AWS S3, Google Cloud Storage, Azure Blob Storage, OpenStack Swift
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Any database for analytics: PostgreSQL, MySQL, Redshift, MongoDB, Oracle, MSSQL
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Any log data: text or binary
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            High performance logs and statistics gathering with minimal application impact based on library or agent approach
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            Web view & charts
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+
+      <div class="platform__item">
+        <div class="main__wrapper">
+          <p class="platform__info">
+            REST & programming language APIs for data retrieving & processing
+          </p>
+          <image class="platform__image" width="100" height="100">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="modules" id="modules">
+    <h2 class="section-title">Modules</h2>
+
+    <div class="main__wrapper">
+      <div class="modules__list">
+        <div class="modules__item">
+          <p class="modules__item-title">
+            Common:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-central</a>
+            </li>
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-environment" target="_blank">apphub-environment</a>
+            </li>
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-cli" target="_blank">apphub-cli</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            Java:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-java</a>
+            </li>
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-java</a>
+            </li>
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-java</a>
+            </li>
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-java</a>
+            </li>
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-java</a>
+            </li>
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-java</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            .NET:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-net</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            Python:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-python</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            Ruby:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-ruby</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            PHP:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-php</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            Go:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-go</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            JavaScript:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-js</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            Android:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-android</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="modules__item">
+          <p class="modules__item-title">
+            Swift:
+          </p>
+          <ul class="modules__links-list">
+            <li class="modules__links-list__item">
+              <a  class="modules__link" href="https://github.com/apphub-pro/apphub-central" target="_blank">apphub-sdk-swift</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <a id="contact"></a>
+
+  <section class="feedback">
+    <div class="main__wrapper">
+      <h2 class="section-title text text--rus">Contact</h2>
+      <p class="feedback__text">
+        Lkmk klmklm klmkm mkmlksdmsd lsmrg;msdg sdkmmsdlkfm
+      </p>
+
+      <form class="feedback__form" method="post" action="mailto:evgktv@gmail.com">
+      <h3 class="feedback__form-intro text text--rus">Write us</h3>
+
+      <div class="feedback__form-box-input text text--rus">
+      <input class="feedback__form-box feedback__form-box--name" type="text" name="name" id="name-rus"
+      placeholder="Name" required>
+      <input class="feedback__form-box feedback__form-box--email" type="email" name="email" id="email-rus"
+      placeholder="Email">
+      <input class="feedback__form-box feedback__form-box--phone" type="tel" name="phone" id="phone-rus"
+      placeholder="Phone">
+      <textarea  class="feedback__form-box feedback__form-textarea" name="message" id="message-rus" placeholder="Message" rows="4" required></textarea>
+      <p class="feedback__form-error"></p>
+      </div>
+
+      <button type="submit" class="btn feedback__btn text text--rus">Send</button>
+      </form>
+
+      <p class="feedback__form-intro text text--rus">JNKJ jkkj jkkjb</p>
+
+      <a class="feedback__whatsapp" href="">
+        <svg class="feedback__icon" width="65" height="65">
+          <use xlink:href="img/symbols.svg#icon-whatsapp"></use>
+        </svg>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="main__wrapper">
+
+    <div class="footer__social">
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="" class="footer__social-item-link">
+            <svg  class="footer__social-icon" width="45px" height="45px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <path d="M100,0 C44.7714,0 0,44.7714 0,100 C0,155.2286 44.7714,200 100,200 C155.2286,200 200,155.2286 200,100 C200,44.7714 155.2286,0 100,0 Z M107,140 C106.866163,139.664992 109.393201,139.385996 111,138 C111.872912,136.713068 111.834953,134.311236 112,134 C111.834953,134.311236 111.671282,123.064991 117,121 C122.02001,119.775804 128.616634,132.27827 136,137 C140.895395,140.722213 144.913218,139.926211 145,140 L164,140 C163.609651,139.664992 173.389475,139.060089 169,131 C168.372373,130.729227 166.050909,125.660886 155,115 C143.126643,104.348573 144.697784,106.111925 159,87 C167.419434,75.7779268 170.857507,68.7689609 170,66 C168.759365,62.9065935 162.433883,63.6621041 162,64 L141,64 C141.38345,63.7929606 139.821676,63.5796399 139,64 C137.533242,64.9514102 136.807076,66.5355135 137,67 C136.807076,66.5355135 133.474009,75.4194296 129,83 C119.658615,98.9187728 115.910454,99.7626732 114,99 C110.812503,96.4636102 111.703819,89.5030365 112,85 C111.703819,69.105731 114.043523,62.663645 107,61 C104.859717,60.4430363 103.174203,60.0771322 97,60 C89.8103825,59.940844 83.454335,60.0405911 80,62 C77.459645,62.9821446 75.6119395,65.5987791 77,66 C78.1296107,65.9355492 81.2797809,66.6016824 83,69 C85.1078046,71.8186561 85.031885,78.419745 85,78 C85.031885,78.419745 86.2717407,96.6077991 82,99 C79.2999557,100.415968 75.407351,97.252699 67,83 C62.7692036,75.379432 59.536212,67.1883142 60,67 C59.536212,67.1883142 58.9135728,65.6580348 58,65 C56.4521018,63.8462907 54.5674225,63.5317415 55,64 L35,64 C34.5631025,63.6625979 31.5608277,63.7465436 30,65 C29.4759968,66.2189891 30.3791441,68.624772 30,69 C30.3791441,68.624772 46.0392858,105.324812 64,124 C80.0354883,140.778012 98.4982462,139.664992 98,140 L107,140 Z" id="VK" class="footer__social-icon-bg"></path>
+              </g>
+            </svg>
+          </a>
+        </li>
+
+        <!--<li class="footer__social-item">-->
+        <!--<a href="#" class="footer__social-item-link">-->
+        <!--<svg class="footer__social-icon" width="45px" height="45px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">-->
+        <!--<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">-->
+        <!--<path d="M83.0148642,198.563409 C35.8763434,190.497976 0,149.438784 0,100 C0,44.7714 44.7714,0 100,0 C155.2286,0 200,44.7714 200,100 C200,151.034119 161.77092,193.139119 112.387459,199.240302 L112.387459,127.016912 L136.884864,127.016912 L140.552554,98.5735974 L112.387459,98.5735974 L112.387459,80.413798 C112.387459,72.1787946 114.67394,66.5671009 126.483423,66.5671009 L141.545387,66.5600395 L141.545387,41.120644 C138.939025,40.7746355 129.999294,40 119.597853,40 C97.8819334,40 83.0148642,53.2549518 83.0148642,77.5977121 L83.0148642,98.5735974 L58.4546129,98.5735974 L58.4546129,127.016912 L83.0148642,127.016912 L83.0148642,198.563409 Z" id="Facebook" class="footer__social-icon-bg"></path>-->
+        <!--</g>-->
+        <!--</svg>-->
+        <!--</a>-->
+        <!--</li>-->
+
+        <li class="footer__social-item">
+          <a href="" class="footer__social-item-link">
+            <svg class="footer__social-icon" width="45px" height="45px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="#eeeeee" fill-rule="evenodd">
+                <path d="M100,0 C44.7714,0 0,44.7714 0,100 C0,155.2286 44.7714,200 100,200 C155.2286,200 200,155.2286 200,100 C200,44.7714 155.2286,0 100,0 Z M71.5697674,90.2840909 L71.5697674,108.636364 L96.1744186,108.636364 C94.0348837,119.431818 84.4069767,128.068182 71.5697674,128.068182 C56.5930233,128.068182 43.755814,115.113636 43.755814,100 C43.755814,84.8863636 56.5930233,71.9318182 71.5697674,71.9318182 C77.9883721,71.9318182 84.4069767,74.0909091 88.6860465,78.4090909 L102.593023,64.375 C94.0348837,57.8977273 84.4069767,52.5 71.5697674,52.5 C45.8953488,52.5 24.5,74.0909091 24.5,100 C24.5,125.909091 45.8953488,147.5 71.5697674,147.5 C98.3139535,147.5 116.5,128.068182 116.5,101.079545 C116.5,97.8409091 116.5,93.5227273 115.430233,90.2840909 C115.430233,90.2840909 71.5697674,90.2840909 71.5697674,90.2840909 Z M159.428571,91.597561 L159.428571,75.5 L147.642857,75.5 L147.642857,91.597561 L130.5,91.597561 L130.5,103.402439 L146.571429,103.402439 L146.571429,119.5 L158.357143,119.5 L158.357143,103.402439 L175.5,103.402439 L175.5,91.597561 L159.428571,91.597561 Z" id="Google+" class="footer__social-icon-bg"></path>
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="footer__copyright"><span class="footer__copyright-text">© 2018</span>
+      <a href="#" class="footer__copyright-link">Evgeny Kotlyarov</a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/main.js"></script>
+
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+
+<!--<script type="text/javascript">-->
+<!--$(document).ready(function() { // вся мaгия пoслe зaгрузки стрaницы-->
+<!--$("#ajaxform").submit(function(){ // пeрeхвaтывaeм всe при сoбытии oтпрaвки-->
+<!--var form = $(this); // зaпишeм фoрму, чтoбы пoтoм нe былo прoблeм с this-->
+<!--var error = false; // прeдвaритeльнo oшибoк нeт-->
+<!--form.find('input, textarea').each( function(){ // прoбeжим пo кaждoму пoлю в фoрмe-->
+<!--if ($(this).val() == '') { // eсли нaхoдим пустoe-->
+<!--alert('Зaпoлнитe пoлe "'+$(this).attr('placeholder')+'"!'); // гoвoрим зaпoлняй!-->
+<!--error = true; // oшибкa-->
+<!--}-->
+<!--});-->
+<!--if (!error) { // eсли oшибки нeт-->
+<!--var data = form.serialize(); // пoдгoтaвливaeм дaнныe-->
+<!--$.ajax({ // инициaлизируeм ajax зaпрoс-->
+<!--type: 'POST', // oтпрaвляeм в POST фoрмaтe, мoжнo GET-->
+<!--url: 'form.php', // путь дo oбрaбoтчикa, у нaс oн лeжит в тoй жe пaпкe-->
+<!--dataType: 'json', // oтвeт ждeм в json фoрмaтe-->
+<!--data: data, // дaнныe для oтпрaвки-->
+<!--beforeSend: function(data) { // сoбытиe дo oтпрaвки-->
+<!--form.find('input[type="submit"]').attr('disabled', 'disabled'); // нaпримeр, oтключим кнoпку, чтoбы нe жaли пo 100 рaз-->
+<!--},-->
+<!--success: function(data){ // сoбытиe пoслe удaчнoгo oбрaщeния к сeрвeру и пoлучeния oтвeтa-->
+<!--if (data['error']) { // eсли oбрaбoтчик вeрнул oшибку-->
+<!--alert(data['error']); // пoкaжeм eё тeкст-->
+<!--} else { // eсли всe прoшлo oк-->
+<!--alert('Письмo oтврaвлeнo! Чeкaйтe пoчту! =)'); // пишeм чтo всe oк-->
+<!--}-->
+<!--},-->
+<!--error: function (xhr, ajaxOptions, thrownError) { // в случae нeудaчнoгo зaвeршeния зaпрoсa к сeрвeру-->
+<!--alert(xhr.status); // пoкaжeм oтвeт сeрвeрa-->
+<!--alert(thrownError); // и тeкст oшибки-->
+<!--},-->
+<!--complete: function(data) { // сoбытиe пoслe любoгo исхoдa-->
+<!--form.find('input[type="submit"]').prop('disabled', false); // в любoм случae включим кнoпку oбрaтнo-->
+<!--}-->
+
+<!--});-->
+<!--}-->
+<!--return false; // вырубaeм стaндaртную oтпрaвку фoрмы-->
+<!--});-->
+<!--});-->
+<!--</script>-->
+
+
+</body>
+</html>

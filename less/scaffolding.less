@@ -1,0 +1,108 @@
+@font-face {
+    font-weight: 400;
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+
+    src: url("../fonts/ptsansnarrow.woff2") format("woff2"),
+    url("../fonts/ptsansnarrow.woff") format("woff");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "ubuntu";
+    font-style: normal;
+
+    src: url("../fonts/Ubuntu-R.ttf") format("truetype"),
+    url("../fonts/Ubuntu-R.ttf") format("truetype");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+
+    src: url("../fonts/ptsansnarrowbold.woff2") format("woff2"),
+    url("../fonts/ptsansnarrowbold.woff") format("woff");
+}
+
+body {
+    margin: 0;
+    font-family: PT Sans Narrow, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+    font-style: normal;
+
+    background-color: #fff;
+}
+
+.visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.main__wrapper {
+    .container-fluid();
+}
+
+.section-title {
+    position: relative;
+
+    margin: 0;
+    margin-bottom: 40px;
+
+    font-family: @txt-section-title, open-sans, sans-serif;;
+    color: #222222;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 3px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    &::after {
+        content: "";
+        position: absolute;
+
+        width: 100px;
+        height:2px;
+
+        bottom: -10px;
+        left: 50%;
+        margin-left: -50px;
+
+        background-color: yellow;
+    }
+
+    @media @tablet-widths {
+        margin-bottom: 60px;
+
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+.text--hidden {
+    display: none !important;
+}
