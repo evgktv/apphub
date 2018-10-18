@@ -928,9 +928,7 @@ template {
   color: #083954;
 }
 .modules__link:active {
-  display: block;
-  padding-top: 10px;
-  color: #000;
+  color: #0B232D;
   outline: none;
   border: none;
 }
