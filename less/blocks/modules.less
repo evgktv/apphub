@@ -1,33 +1,22 @@
 .modules {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: 87vh;
+  min-height: 635px;
 
-  padding: 60px 0;
+  padding-top: 60px;
 
-  background-color: #fff;
+  background-color: #F7F9F6;
 
   overflow: hidden;
 
   box-sizing: border-box;
-}
 
-.modules__item {
-	width: 25%;
-}
+	@media @tablet-widths {
+    height: 75vh;
+	  min-height: 550px;
 
-.modules__item-title {
-
-	font-family: ubuntu, open-sans, sans-serif;
-  color: #222222;
-  font-size: 14px;
-  line-height: 22px;
-
-  @media @tablet-widths {
-
-    font-size: 20px;
-    line-height: 30px;
-  }
+	}
 }
 
 .modules__list {
@@ -36,15 +25,80 @@
 	flex-direction: row;
 }
 
+.modules__item {
+	width: 33.3%;
+	margin-bottom: 20px;
+
+	@media @tablet-widths {
+		width: 25%;
+	}
+
+	&.modules__item--java,
+	&.modules__item--common {
+
+		width: 100%;
+
+		& .modules__links-list {
+
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+
+			& .modules__links-list__item {
+
+				width: 33.3%;
+
+				@media @tablet-widths {
+
+  		    width: 25%;
+  	    }
+			}
+		}
+	}
+}
+
+.modules__item-title {
+	display: block;
+
+	font-family: ubuntu, open-sans, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+
+	background: linear-gradient(45deg, #000, #F7F9F6 60%);
+
+  @media @tablet-widths {
+
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
 .modules__links-list__item {
 	margin-bottom: 10px;
 }
 
 .modules__link {
 	font-family: ubuntu, open-sans, sans-serif;
-  color: #00f;
+  color: #0081C2;
   font-size: 12px;
   line-height: 22px;
+
+  &:hover {
+    color: #083954;
+  }
+
+  &:active {
+    display: block;
+    padding-top: 10px;
+        color: #000;
+		outline: none;
+		border: none;
+  }
+
+  &:visited {
+     color: #EF7D55;
+   }
 
   @media @tablet-widths {
 
