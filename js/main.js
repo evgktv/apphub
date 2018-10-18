@@ -139,7 +139,7 @@ function changeSlideInterval() {
 			nextSlide = 0;
 		};
 		changeSlide(nextSlide);
-		}, 4000);
+		}, 5000);
 }
 
 function changeSlide(newSlide) {

@@ -908,11 +908,12 @@ template {
 }
 .modules__item-title {
   display: block;
+  padding-left: 3px;
   font-family: ubuntu, open-sans, sans-serif;
   color: #fff;
   font-size: 14px;
   line-height: 22px;
-  background: linear-gradient(45deg, #000, #F7F9F6 60%);
+  background: linear-gradient(45deg, #000, #F7F9F6 70%);
 }
 .modules__links-list__item {
   margin-bottom: 10px;
@@ -1221,6 +1222,7 @@ template {
   .modules__item-title {
     font-size: 20px;
     line-height: 30px;
+    background: linear-gradient(45deg, #000, #F7F9F6 60%);
   }
   .modules__link {
     font-size: 16px;
