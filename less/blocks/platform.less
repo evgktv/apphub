@@ -19,6 +19,10 @@
         left: 5%;
         opacity: 0.7;
 
+				@media @tablet-widths {
+
+          left: 2%;
+        }
         &:hover {
           opacity: 1;
         }
@@ -27,6 +31,11 @@
       &:hover .platform__slide-change--right {
         right: 5%;
         opacity: 0.7;
+
+				@media @tablet-widths {
+
+          right: 2%;
+        }
 
         &:hover {
           opacity: 1;
@@ -245,12 +254,14 @@
 
 	@media @tablet-widths {
 
-  	width: 40%;
-  	display: block;
+  	width: 60%;
 
     text-align: left;
-    z-index: 20;
 	}
+
+	  @media @desktop-widths {
+  	  width: 45%;
+    }
 }
 
 .platform__info {
@@ -266,10 +277,12 @@
 
   @media @tablet-widths {
 
+    line-height: 49px;
+  }
+
+  @media @desktop-widths {
     font-size: 38px;
     line-height: 55px;
-
-    transition: all 0.7s cubic-bezier(0, 0, .5, 1);
   }
 }
 

@@ -80,7 +80,13 @@ setTimeout(function() {
 	}, 44);
 
 textSlide[numItemChecked].style.marginLeft = 0 + 'px';
-platformImage[numItemChecked].style.width = 450 + 'px';
+
+if (window.innerWidth >= 960) {
+	platformImage[numItemChecked].style.width = 33 + '%';
+} else
+		if (window.innerWidth > 639) {
+			platformImage[numItemChecked].style.width = 30 + '%';
+		}
 
 changeSlideInterval();
 
@@ -169,7 +175,12 @@ function changeSlide(newSlide) {
 
 
         overlaySlide[newSlide].style.opacity = 1;
-        platformImage[newSlide].style.width = 450 + 'px';
+        if (window.innerWidth >= 960) {
+        	platformImage[newSlide].style.width = 33 + '%';
+        } else
+        		if (window.innerWidth > 639) {
+        			platformImage[newSlide].style.width = 30 + '%';
+        		}
 
         if (isEven(newSlide)) {
           textSlide[newSlide].style.marginLeft = 0 + 'px';
