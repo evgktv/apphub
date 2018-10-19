@@ -202,3 +202,44 @@ function changeSlide(newSlide) {
 			}, 600);
 		}
 }
+
+
+var initialPoint;
+var finalPoint;
+document.addEventListener('touchstart', function(event) {
+event.preventDefault();
+event.stopPropagation();
+initialPoint=event.changedTouches[0];
+}, false);
+document.addEventListener('touchend', function(event) {
+event.preventDefault();
+event.stopPropagation();
+finalPoint=event.changedTouches[0];
+var xAbs = Math.abs(initialPoint.pageX - finalPoint.pageX);
+var yAbs = Math.abs(initialPoint.pageY - finalPoint.pageY);
+
+if (xAbs > 20 || yAbs > 20) {
+if (xAbs > yAbs) {
+if (finalPoint.pageX < initialPoint.pageX){
+		var prevSlide = numItemChecked - 1;
+		changeSlide(prevSlide);
+}
+else {
+		var nextSlide = numItemChecked + 1;
+		changeSlide(nextSlide);
+		}
+		}
+else {
+
+if (finalPoint.pageY < initialPoint.pageY){
+		var nextSlide = numItemChecked + 1;
+		changeSlide(nextSlide);
+}
+		else {
+		var prevSlide = numItemChecked - 1;
+		changeSlide(prevSlide);
+		}
+		}
+}
+
+}, false);
