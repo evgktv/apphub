@@ -162,8 +162,8 @@ function changeSlide(newSlide, marginOut, swipe) {
 			radioSlider[numItemChecked].checked = false;
 
 			if (swipe) {
-				textSlide[numItemChecked].style.marginLeft = -marginOut + 'px';
-				textSlide[newSlide].style.marginLeft = marginOut + 'px';
+				textSlide[numItemChecked].style.marginLeft = marginOut + 'px';
+				textSlide[newSlide].style.marginLeft = -marginOut + 'px';
 			}
 			else {
 				if (isEven(numItemChecked)) {
@@ -236,7 +236,7 @@ sliderBox.addEventListener('touchend', function(event) {
   		  prevSlide = radioSlider.length-1;
   	  };
 
-			changeSlide(prevSlide, 700, 1);
+			changeSlide(prevSlide, -700, 1);
 			clearInterval(intervalSlider);
       changeSlideInterval();
 		}
@@ -247,7 +247,7 @@ sliderBox.addEventListener('touchend', function(event) {
         nextSlide = 0;
       };
 
-			changeSlide(nextSlide, -700, 1);
+			changeSlide(nextSlide, 700, 1);
 			clearInterval(intervalSlider);
   	  changeSlideInterval();
 			}
