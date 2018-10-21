@@ -162,8 +162,8 @@ function changeSlide(newSlide, marginOut, swipe) {
 			radioSlider[numItemChecked].checked = false;
 
 			if (swipe) {
-				textSlide[numItemChecked].style.marginLeft = marginOut + 'px';
-				textSlide[newSlide].style.marginLeft = -marginOut + 'px';
+				textSlide[numItemChecked].style.marginLeft = -marginOut + 'px';
+				textSlide[newSlide].style.marginLeft = marginOut + 'px';
 			}
 			else {
 				if (isEven(numItemChecked)) {
