@@ -229,14 +229,23 @@ sliderBox.addEventListener('touchend', function(event) {
 
 	if (xAbs > 20) {
 		if (finalPoint < initialPoint){
-			var nextSlide = numItemChecked - 1;
+
+			var nextSlide = numItemChecked + 1;
+
+			if (radioSlider[radioSlider.length-1].checked == true) {
+  		  nextSlide = 0;
+  	  };
 
 			changeSlide(nextSlide, 700, 1);
 			clearInterval(intervalSlider);
       changeSlideInterval();
 		}
 	else {
-		var prevSlide = numItemChecked + 1;
+		var prevSlide = numItemChecked - 1;
+
+		if (radioSlider[0].checked == true) {
+      prevSlide = radioSlider.length-1;
+    };
 
 		changeSlide(prevSlide, -700, 1);
 		clearInterval(intervalSlider);

@@ -943,13 +943,28 @@ template {
   box-sizing: border-box;
 }
 .services__item {
-  border: 1px solid red;
+  height: 100px;
+}
+.services__item:nth-child(2) {
+  border-top: 1px solid #b6b6b6;
+}
+.services__item:last-child {
+  border-bottom: 1px solid #b6b6b6;
 }
 .services__item:nth-child(2n) {
   background: #d8d8d8;
+  text-align: left;
 }
 .services__item:nth-child(2n+1) {
   background: #F7F9F6;
+  text-align: right;
+}
+.services__item-info {
+  margin: 0;
+  font-family: ubuntu, open-sans, sans-serif;
+  color: #222;
+  font-size: 12px;
+  line-height: 22px;
 }
 .feedback {
   position: relative;
@@ -1244,6 +1259,13 @@ template {
     background: linear-gradient(45deg, #000, #F7F9F6 60%);
   }
   .modules__link {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .services__item {
+    height: 200px;
+  }
+  .services__item-info {
     font-size: 16px;
     line-height: 24px;
   }
