@@ -135,10 +135,9 @@
 
       display: block;
     }
-
 }
 
-#platform__slide-1:checked ~ .platform__slide-change.platform__slide-change--left {
+#platform__slide-0:checked ~ .platform__slide-change.platform__slide-change--left {
     cursor: default;
 
     opacity: 0.1;
@@ -150,6 +149,7 @@
     opacity: 0.1;
 }
 
+#platform__slide-0:checked ~ .platform__slider-controls label[for="platform__slide-0"],
 #platform__slide-1:checked ~ .platform__slider-controls label[for="platform__slide-1"],
 #platform__slide-2:checked ~ .platform__slider-controls label[for="platform__slide-2"],
 #platform__slide-3:checked ~ .platform__slider-controls label[for="platform__slide-3"],
@@ -190,6 +190,10 @@
 
 .platform__item--odd .platform__item-overlay {
   background-image: url("../img/bg-header2.jpg");
+}
+
+.platform__item--0.platform__item--odd .platform__item-overlay {
+	background-image: url("../img/bg-apphub.jpg");
 }
 
 .platform--nojs .platform__item-overlay {
@@ -236,6 +240,7 @@
     display: flex;
 }
 
+#platform__slide-0:checked ~ .platform--nojs.platform__slider-box .platform__item--odd,
 #platform__slide-2:checked ~ .platform--nojs.platform__slider-box .platform__item--odd,
  #platform__slide-4:checked ~ .platform--nojs.platform__slider-box .platform__item--odd,
  #platform__slide-6:checked ~ .platform--nojs.platform__slider-box .platform__item--odd,

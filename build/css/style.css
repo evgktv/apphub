@@ -620,7 +620,13 @@ template {
   transition-duration: 0.7s;
 }
 .main-nav__item.main-nav__item--logo a {
-  margin-left: 20px;
+  position: relative;
+}
+.main-nav__item.main-nav__item--logo a .aaa {
+  position: absolute;
+  font-size: 32px;
+  right: -95px;
+  top: 47%;
 }
 .main-nav__item-txt {
   font-size: 22px;
@@ -769,7 +775,7 @@ template {
 .platform__slide-change.platform--nojs {
   display: none;
 }
-#platform__slide-1:checked ~ .platform__slide-change.platform__slide-change--left {
+#platform__slide-0:checked ~ .platform__slide-change.platform__slide-change--left {
   cursor: default;
   opacity: 0.1;
 }
@@ -777,6 +783,7 @@ template {
   cursor: default;
   opacity: 0.1;
 }
+#platform__slide-0:checked ~ .platform__slider-controls label[for="platform__slide-0"],
 #platform__slide-1:checked ~ .platform__slider-controls label[for="platform__slide-1"],
 #platform__slide-2:checked ~ .platform__slider-controls label[for="platform__slide-2"],
 #platform__slide-3:checked ~ .platform__slider-controls label[for="platform__slide-3"],
@@ -815,6 +822,9 @@ template {
 .platform__item--odd .platform__item-overlay {
   background-image: url("../img/bg-header2.jpg");
 }
+.platform__item--0.platform__item--odd .platform__item-overlay {
+  background-image: url("../img/bg-apphub.jpg");
+}
 .platform--nojs .platform__item-overlay {
   opacity: 0;
 }
@@ -836,6 +846,7 @@ template {
 #platform__slide-11:checked ~ .platform--nojs.platform__slider-box .platform__item--even {
   display: flex;
 }
+#platform__slide-0:checked ~ .platform--nojs.platform__slider-box .platform__item--odd,
 #platform__slide-2:checked ~ .platform--nojs.platform__slider-box .platform__item--odd,
 #platform__slide-4:checked ~ .platform--nojs.platform__slider-box .platform__item--odd,
 #platform__slide-6:checked ~ .platform--nojs.platform__slider-box .platform__item--odd,
@@ -938,33 +949,60 @@ template {
   position: relative;
   width: 100%;
   padding: 60px 0;
-  background: #d8d8d8;
+  background: #f0f0f0;
   overflow: hidden;
   box-sizing: border-box;
 }
 .services__item {
   height: 100px;
+  display: flex;
+  align-items: center;
+}
+.services__item .main__wrapper {
+  display: flex;
+  align-items: center;
 }
 .services__item:nth-child(2) {
-  border-top: 1px solid #b6b6b6;
+  border-top: 1px solid #d8d8d8;
 }
 .services__item:last-child {
-  border-bottom: 1px solid #b6b6b6;
+  border-bottom: 1px solid #d8d8d8;
 }
 .services__item:nth-child(2n) {
-  background: #d8d8d8;
+  background: #f0f0f0;
   text-align: left;
+}
+.services__item:nth-child(2n) .services__item-info {
+  margin-right: 40%;
 }
 .services__item:nth-child(2n+1) {
   background: #F7F9F6;
   text-align: right;
 }
+.services__item:nth-child(2n+1) .services__item-info {
+  margin-left: 40%;
+}
 .services__item-info {
   margin: 0;
+  width: 60%;
   font-family: ubuntu, open-sans, sans-serif;
   color: #222;
   font-size: 12px;
-  line-height: 22px;
+  line-height: 21px;
+}
+.apphub {
+  position: relative;
+  width: 100%;
+  height: 65vh;
+  min-height: 440px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-image: url("../img/bg-apphub.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  transition-property: opacity;
 }
 .feedback {
   position: relative;
@@ -1263,11 +1301,11 @@ template {
     line-height: 24px;
   }
   .services__item {
-    height: 200px;
+    height: 250px;
   }
   .services__item-info {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 30px;
+    line-height: 49px;
   }
   .feedback__form {
     width: 640px;
@@ -1310,6 +1348,10 @@ template {
     width: 45%;
   }
   .platform__info {
+    font-size: 38px;
+    line-height: 55px;
+  }
+  .services__item-info {
     font-size: 38px;
     line-height: 55px;
   }
