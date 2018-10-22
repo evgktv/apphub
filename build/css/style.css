@@ -889,7 +889,9 @@ template {
   height: 87vh;
   min-height: 635px;
   padding-top: 60px;
-  background-color: #F7F9F6;
+  background-image: url("../img/bg-modules.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -923,7 +925,7 @@ template {
   color: #fff;
   font-size: 14px;
   line-height: 22px;
-  background: linear-gradient(45deg, #000, #F7F9F6 70%);
+  background: linear-gradient(45deg, #000, transparent 70%);
 }
 .modules__links-list__item {
   margin-bottom: 10px;
@@ -1292,10 +1294,10 @@ template {
   .modules__item-title {
     font-size: 20px;
     line-height: 30px;
-    background: linear-gradient(45deg, #000, #F7F9F6 60%);
+    background: linear-gradient(45deg, #000, transparent 60%);
   }
   .modules__link {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
   }
   .services__item {
