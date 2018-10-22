@@ -997,12 +997,12 @@ template {
   min-height: 440px;
   overflow: hidden;
   box-sizing: border-box;
-  background-image: url("../img/bg-apphub.jpg");
-  background-size: cover;
+  background-image: url("../img/bg-apphubblock.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
+  background-position: 50% 0;
   transition-property: opacity;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
 }
 .feedback {
   position: relative;
