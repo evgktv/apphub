@@ -120,4 +120,4 @@ gen
 node_modules/*
 .idea/
 
-build/
+/build
