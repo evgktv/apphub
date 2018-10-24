@@ -145,7 +145,7 @@ function changeSlideInterval() {
 			nextSlide = 0;
 		};
 		changeSlide(nextSlide);
-		}, 5000);
+		}, 6000);
 }
 
 function changeSlide(newSlide, marginOut, swipe) {
