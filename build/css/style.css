@@ -885,6 +885,19 @@ template {
   bottom: 0;
   z-index: 50;
 }
+.schema {
+  position: relative;
+  width: 100%;
+  padding: 60px 0;
+  background: #f0f0f0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.schema__icon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .modules {
   position: relative;
   width: 100%;
