@@ -1118,7 +1118,7 @@ template {
   text-align: center;
   font-family: ubuntu, open-sans, sans-serif;
   color: #222;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
 }
 .feedback__block-mail {
@@ -1130,12 +1130,11 @@ template {
 .feedback__link {
   margin: 0;
   margin-top: 15px;
+  text-align: center;
   font-family: ubuntu, open-sans, sans-serif;
   color: #420073;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
 }
 .feedback__link--tel {
   display: block;
@@ -1324,14 +1323,14 @@ template {
     line-height: 26px;
   }
   .feedback__text {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 26px;
   }
   .feedback__block-mail {
     flex-direction: row;
   }
   .feedback__link {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 26px;
   }
 }
@@ -1372,11 +1371,11 @@ template {
     line-height: 27px;
   }
   .feedback__text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 27px;
   }
   .feedback__link {
-    font-size: 26px;
+    font-size: 18px;
     line-height: 27px;
   }
 }
