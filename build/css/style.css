@@ -952,15 +952,15 @@ template {
   line-height: 22px;
 }
 .modules__link:hover {
-  color: #083954;
+  color: #FF6E00;
 }
 .modules__link:active {
-  color: #0B232D;
+  color: #420073;
   outline: none;
   border: none;
 }
 .modules__link:visited {
-  color: #EF7D55;
+  color: #420073;
 }
 .moduldes__bg-end {
   position: absolute;
@@ -1089,6 +1089,14 @@ template {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.partners__text {
+  font-family: ubuntu, open-sans, sans-serif;
+  color: #0081C2;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+}
 .feedback {
   position: relative;
   width: 100%;
@@ -1131,46 +1139,11 @@ template {
 .footer {
   position: relative;
   width: 100%;
-  padding: 20px 0;
-  background-color: #eeeeee;
-}
-.footer__social-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.footer__social-item {
-  margin-right: 20px;
-}
-.footer__social-item:last-child {
-  margin-right: 0;
-}
-.footer__social-item-link {
-  outline: none;
-}
-.footer__social-item-link:active {
-  outline: none;
-}
-.footer__social-icon-bg {
-  fill: #444444;
-}
-.footer__social-icon {
-  border-radius: 50%;
-}
-.footer__social-icon:hover {
-  background-color: rgba(255, 255, 0, 0.4);
-}
-.footer__social-icon:hover .footer__social-icon-bg {
-  fill: #aaaaaa;
-}
-.footer__social-icon:active {
-  background-color: #444444;
-}
-.footer__social-icon:active .footer__social-icon-bg {
-  fill: #eeeeee;
+  padding: 10px 0;
+  background-color: #000;
 }
 .footer__copyright {
+  display: block;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -1338,6 +1311,10 @@ template {
     font-size: 14px;
     line-height: 25px;
   }
+  .partners__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
   .feedback__text {
     font-size: 14px;
     line-height: 25px;
@@ -1380,6 +1357,10 @@ template {
   }
   .team__item-info {
     font-size: 16px;
+    line-height: 27px;
+  }
+  .partners__text {
+    font-size: 18px;
     line-height: 27px;
   }
   .feedback__text {
