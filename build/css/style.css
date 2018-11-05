@@ -1014,6 +1014,9 @@ template {
   font-size: 14px;
   line-height: 21px;
 }
+.services__item-img {
+  display: block;
+}
 .services__bg-end {
   position: absolute;
   bottom: 0;
@@ -1127,11 +1130,12 @@ template {
 .feedback__link {
   margin: 0;
   margin-top: 15px;
-  text-align: center;
   font-family: ubuntu, open-sans, sans-serif;
   color: #420073;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
 }
 .feedback__link--tel {
   display: block;
@@ -1297,8 +1301,8 @@ template {
     height: 250px;
   }
   .services__item-info {
-    font-size: 26px;
-    line-height: 44px;
+    font-size: 24px;
+    line-height: 40px;
   }
   .team__item {
     width: 190px;
@@ -1327,7 +1331,7 @@ template {
     flex-direction: row;
   }
   .feedback__link {
-    font-size: 16px;
+    font-size: 22px;
     line-height: 26px;
   }
 }
@@ -1372,7 +1376,7 @@ template {
     line-height: 27px;
   }
   .feedback__link {
-    font-size: 18px;
+    font-size: 26px;
     line-height: 27px;
   }
 }
