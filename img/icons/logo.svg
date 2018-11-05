@@ -2,7 +2,7 @@
     <g>
     <defs>
         <linearGradient x1="0" y1="0" x2="0" y2="1" id="background127" gradientTransform="rotate(0 .5 .5)">
-            <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+            <stop offset="0" stop-color="transparent" stop-opacity="1"/>
         </linearGradient>
         
     </defs>

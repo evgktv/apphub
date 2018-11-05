@@ -663,9 +663,9 @@ template {
   box-shadow: 0 7px 0 0 #fff, 0 14px 0 0 #fff;
 }
 .main-nav__toggle:hover.main-nav__toggle::before {
-  top: 16px;
-  background-color: #ff0000;
-  box-shadow: 0 8px 0 0 #ff0000, 0 16px 0 0 #ff0000;
+  top: 15px;
+  background-color: #FF6E00;
+  box-shadow: 0 9px 0 0 #FF6E00, 0 18px 0 0 #FF6E00;
   transition-duration: 0.7s;
 }
 .about {
@@ -1063,7 +1063,7 @@ template {
   margin-top: 25px;
   font-family: ubuntu, open-sans, sans-serif;
   color: #0081C2;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
   font-weight: 700;
 }
@@ -1092,8 +1092,8 @@ template {
 .partners__text {
   font-family: ubuntu, open-sans, sans-serif;
   color: #0081C2;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 20px;
   font-weight: 700;
   text-align: center;
 }
@@ -1130,7 +1130,7 @@ template {
   text-align: center;
   font-family: ubuntu, open-sans, sans-serif;
   color: #420073;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
 }
 .feedback__link--tel {
@@ -1145,6 +1145,10 @@ template {
 .footer__copyright {
   display: block;
   text-align: center;
+  font-family: ubuntu, open-sans, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
 }
 @media (min-width: 768px) {
   .main__wrapper {
@@ -1312,7 +1316,7 @@ template {
     line-height: 25px;
   }
   .partners__text {
-    font-size: 16px;
+    font-size: 22px;
     line-height: 26px;
   }
   .feedback__text {
@@ -1323,8 +1327,8 @@ template {
     flex-direction: row;
   }
   .feedback__link {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
 @media (min-width: 768px) and (min-width:1150px) {
@@ -1360,7 +1364,7 @@ template {
     line-height: 27px;
   }
   .partners__text {
-    font-size: 18px;
+    font-size: 26px;
     line-height: 27px;
   }
   .feedback__text {
@@ -1368,7 +1372,7 @@ template {
     line-height: 27px;
   }
   .feedback__link {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 27px;
   }
 }
