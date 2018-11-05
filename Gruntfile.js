@@ -33,15 +33,16 @@ module.exports = function(grunt) {
                 }]
             },
 
-            php: {
-                files: [{
-                    expand: true,
-                    src: [
-                        "*.php",
-                    ],
-                    dest: "build"
-                }]
-            },
+            datajs: {
+                            files: [{
+                                expand: true,
+                                src: [
+                                    "data/**/*.js",
+                                    "data/**/*.json"
+                                ],
+                                dest: "build"
+                            }]
+                        },
 
             js: {
                 files: [{
@@ -144,18 +145,21 @@ module.exports = function(grunt) {
                 tasks: ["copy:js"]
             },
 
-            php: {
-                files: [
-                    "*.php"
-                ],
-                tasks: ["copy:php"]
-            }
+            datajs: {
+                            files: ["data/**/*.js"],
+                            tasks: ["copy:datajs"]
+                        },
+
+                        datajson: {
+                            files: ["data/**/*.json"],
+                            tasks: ["copy:datajson"]
+                        }
         },
 
         browserSync: {
             server: {
                 bsFiles: {
-                    src: ["build/*.html", "build/css/*css", "build/js/*.js", "build/*.php"]
+                    src: ["build/*.html", "build/css/*css", "build/js/*.js", "build/data/*.js"]
                 },
                 options: {
                     watchTask: true,
