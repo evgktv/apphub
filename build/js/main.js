@@ -72,7 +72,6 @@ sliderBox.classList.remove('platform--nojs');
 sliderArrLeft.classList.remove('platform--nojs');
 sliderArrRight.classList.remove('platform--nojs');
 
-
 sliderItem[numItemChecked].style.display = 'flex';
 
 setTimeout(function() {
